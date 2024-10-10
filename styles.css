@@ -1,0 +1,373 @@
+body{
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+}
+#spotifylogo{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#spotifylogo:hover{
+    cursor: pointer;
+}
+#homelogo{
+    background-color: rgb(40, 39, 39);
+    border-radius: 50%;
+    padding:8px;
+    margin-left: 300px;
+}
+#homelogo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+input{
+    background-color:rgb(40, 39, 39);
+    margin-left:8px;
+    width: 470px;
+    height:45px;
+    border-radius: 30px;
+    border-color: transparent;
+    position: absolute;
+}
+input:hover{
+    cursor: pointer;   
+}
+#searchlogo{
+    margin-left:100px;
+    position: absolute;
+    top: 15px;
+    left: 340px;
+    width: 37px;
+}
+#searchlogo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+input::placeholder{
+   color: rgb(189, 182, 182);
+   font-size: 16px;
+   margin-left: 60px;
+   position: absolute;
+}
+#line{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left:820px;
+}
+#browselogo{
+    position: absolute;
+    width: 25px;
+    left: 850px;
+    top: 20px;
+}
+#browselogo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#signup{
+    color: rgb(189, 182, 182);
+    right: 160px;
+    top: 5px;
+    position: absolute;
+}
+#signup:hover{
+    cursor: pointer;
+    color: white;
+    transform: scale(1.1);
+}
+#Login{
+    color: black;
+    right: 60px;
+    top: 1px;
+    position: absolute;
+    background-color: white;
+    border-radius: 40px;
+    padding:8px;
+}
+#Login:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#library{
+    margin-top: 40px;
+    background-color:rgb(19, 19, 19);
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+span{
+    display: flex;
+}
+#liblogo{
+    width: 50px;
+    height: 50px;
+    margin-left:15px;
+}
+#liblogo:hover{
+    cursor: pointer;
+    color: white;
+    transform: scale(1.1);
+}
+#yourlib{
+    color: rgb(189, 182, 182);
+    margin-top:15px;
+}
+#yourlib:hover{
+    cursor: pointer;
+    color: white;
+    transform: scale(1.1);
+}
+#plus{
+    margin-left: 200px;
+    color:rgb(189, 182, 182);
+    padding-right: 40px;
+    font-weight:lighter;
+}
+#plus:hover{
+    cursor: pointer;
+    color: white;
+    transform: scale(1.1);
+}
+#playlist{
+    background-color: rgb(40,39,39);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom:20px;
+}
+#createplaylist{
+    color: white;
+    margin-left: 30px;    
+}
+#itseasy{
+    color: white;
+    margin-left: 30px;  
+}
+#createplay{
+    color: black;
+    background-color: white;
+    display: inline;
+    margin-left: 30px;
+    padding:5px;
+    border-radius: 20px;
+}
+#createplay:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#find{
+    background-color: rgb(40,39,39);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom:20px;
+}
+#letsfind{
+    color: white;
+    margin-left: 30px;    
+}
+#wewill{
+    color: white;
+    margin-left: 30px;  
+}
+#browse{
+    color: black;
+    background-color: white;
+    display: inline;
+    margin-left: 30px;
+    padding:5px;
+    border-radius: 20px;
+}
+#browse:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#legal{
+    margin-left: 20px;
+    color: white;
+    color: rgb(142, 137, 137);
+    justify-content: space-around;
+}
+#ads{
+    margin-left: 35px;
+    color: white;
+    color: rgb(142, 137, 137);
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+#english{
+    color: white;
+    margin-left: 35px;
+    display: flex;
+}
+#english:hover{
+    cursor: pointer;
+}
+#englogo{
+    position: absolute;
+    height: 20px;
+    top: 620px;
+    margin-bottom: 30px; 
+}
+#Eng{
+    position: absolute;
+    top:600px;
+    bottom: 5px;
+    left: 80px;
+}
+#artists{
+    position: absolute;
+    display: inline;
+    background-color: rgb(19, 19, 19);
+    top: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#popular{
+    color: white;
+    margin-left: 15px;
+}
+#popular:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#showall{
+    color: white;
+    margin-left: 580px;
+    margin-right: 15px;
+}
+#showall:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#anirudh{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 150px;
+    border-radius: 50%;
+}
+#anirudh:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#pritam{
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 150px;
+    border-radius:50%;
+}
+#pritam:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#dsp{
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 150px;
+    border-radius:50%;
+}
+#dsp:hover{
+    cursor: pointer;
+    transform: scale(1.1);  
+}
+#thaman{
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 150px;
+    border-radius:50%;
+}
+#thaman:hover{
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+#artistnames{
+    display: flex;
+    color: rgb(189, 182, 182);
+}
+#ani{
+    margin-left: 40px;
+}
+#pri{
+    margin-left: 90px;
+}
+#ds{
+    margin-left: 120px;
+}
+#tha{
+    margin-left: 120px;
+}
+#art{
+    display: flex;
+    color:rgb(189, 182, 182);
+    position: absolute;
+    top: 250px;
+    font-size:medium;
+}
+#an{
+    margin-left: 80px ;
+
+}
+#pr{
+    margin-left: 160px ;
+}
+#d{
+    margin-left: 150px ;
+}
+#th{
+    margin-left: 170px ;
+}
+#popal{
+    color: white;
+    margin-left: 20px;
+}
+#popal:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#showa{
+    color: white;
+    margin-left: 560px;
+}
+#showa:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#devara{
+    margin-left: 30px;
+    width: 150px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+#devara:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#chenna{
+    margin-left: 50px;
+    width: 150px;
+    height: 200px;
+}
+#chenna:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#pushpa{
+    margin-left: 50px;
+    width: 150px;
+    height: 200px;
+}
+#pushpa:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#game{
+    margin-left: 40px;
+    width: 140px;
+    height: 200px;
+}
+#game:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
